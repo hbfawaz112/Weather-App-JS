@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-image:  url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card{
+    background-color: #000000d0;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 30px;
+    font-weight: 700px;
+    width: 100%;
+    max-width: 420px;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-field{
+    height: 30px;
+    width: 14rem;
+    background-color: #7c7c7c2b;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+    color:#fff;
+
+}
+
+.search-btn{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    width: 2rem;
+    height: 2rem;
+    background: #7c7c7c2b;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.search-btn:hover{
+    background: #7c7c7c7b;
+}
+
+.img-icon{
+    width: 20%;
+    height: 20%;
+}
